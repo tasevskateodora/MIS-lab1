@@ -33,7 +33,7 @@ class ExamCard extends StatelessWidget {
             builder: (context, constraints) {
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.spaceBetween, // 👈 важно
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Flexible(
                     child: Text(
